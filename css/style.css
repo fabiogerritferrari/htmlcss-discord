@@ -13,7 +13,7 @@
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -29,6 +29,10 @@
     padding:20px 0px;
 }
 
+.a-items-center{
+    align-items: center;
+}
+
 /*? colors */
 .cl-white{color: white;}
 .bg-cyan{background-color: #add8e6;}
@@ -37,7 +41,7 @@
 .bg-pink{background-color: #ee82ee;}
 .bg-lblue{background-color: #1e90ff;}
 .bg-lpink{background-color: #ffc0cb;}
-.bg-grey{background-color: #d3d3d3;}
+.bg-grey{background-color: #e4e4e4;}
 .bg-green{background-color: #228b22;}
 .bg-salmon{background-color: #f08080;}
 .bg-dcyan{background-color: #20b2aa;}
@@ -130,7 +134,7 @@ article h2{
     margin-bottom: 1rem;
 }
 
-.p-article{    
+article{    
     padding: 2rem 2rem;
 }
 
@@ -144,6 +148,19 @@ article h2{
 
 .col-bigger{
     flex-basis: 100%;
+}
+
+/* separator */
+
+.separator{
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    opacity: 10%;
+    height: 100px;
+}
+
+.reverse{
+    transform: scaleY(-1);
 }
 
 /* ?footer */
