@@ -134,7 +134,7 @@ article h2{
     margin-bottom: 1rem;
 }
 
-article{    
+.padding-2{    
     padding: 2rem 2rem;
 }
 
@@ -181,6 +181,34 @@ article{
 
 /* ?footer */
 
+.social > h2{
+    color: #707cb8;
+}
+
+.cl-purple{
+    color: #707cb8;
+}
+
+.padding-b-2{
+    padding-bottom: 2rem;
+}
+
+.lang{
+    font-size: smaller;
+}
+
+.lang-flag{
+    display: inline;
+}
+
+.lang-flag img{
+    width: 1rem;
+}
+
+li a > img{
+    width: 50px;
+}
+
 .col-30{
     flex-basis: 30%;
 }
@@ -193,8 +221,11 @@ article{
     flex-basis:25%;
 }
 
-.bg-salmon{
-    border-color: white;
+.col-25 > h3{
+    color: white;
+    font-weight: 500;
+    font-size: small;
+    padding-top: 0.5rem;
 }
 
 footer section{
@@ -214,3 +245,4 @@ footer section{
 .padding-button{
     padding: 0.1rem 0.3rem;
 }
+
