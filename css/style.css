@@ -20,6 +20,9 @@
 .a-items-center{align-items: center;}
 
 /*? colors */
+
+.bg-white{background-color: white;}
+
 .cl-white{color: white;}
 
 .cl-purple{color: #707cb8;}
@@ -30,10 +33,10 @@
 
 .bg-purple{background-color: #8da1e2;}
 
+.bg-blue{background-color: #3160e0;}
 
 /*? header */
 
-header{background-color: #3160e0;}
 
 /*! btn */
 
@@ -56,12 +59,11 @@ header{background-color: #3160e0;}
 /* top-bar */
 
 .login-content{
-    text-align: end;
+    /text-align: end;
     background-color: white;
-    color: black;
     border-radius: 25px;
     padding: 0.5em 0.8em;
-    border: 1px solid transparent;
+    border: 1px solid transparent; 
 }
 
 ul{
@@ -73,7 +75,8 @@ ul{
 
 .top-bar a{text-decoration: none;}
 
-.top-bar{
+
+.top-bar-content{
     justify-content: space-between;
     align-items: center;
     font-size: small;
