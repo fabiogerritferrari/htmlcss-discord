@@ -119,15 +119,20 @@ a{
     margin-left: 1rem;
 }
 
-/* .font-size-l{
-    font-size: 1.1rem;
-} */
-
 .jumbotron-content h1{
     font-size: 2.7rem;
 }
 
 /* ?main */
+
+article h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.p-article{    
+    padding: 2rem 2rem;
+}
 
 .col-big{
     flex-basis: 65%;
